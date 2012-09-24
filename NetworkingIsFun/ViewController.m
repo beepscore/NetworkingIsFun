@@ -91,8 +91,7 @@
 
     // show thumbnail image
     NSURL *url = [[NSURL alloc] initWithString:[movie objectForKey:@"artworkUrl100"]];
-    NSData *data = [NSData dataWithContentsOfURL:url];
-    cell.imageView.image = [[UIImage alloc] initWithData:data];
+    [cell.imageView setImageWithURL:url placeholderImage:[UIImage imageNamed:@"placeholder"]];
     
     return cell;
 }
