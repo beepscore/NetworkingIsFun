@@ -35,6 +35,8 @@
 		DE8506E116104BCE00A1282D /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = DE85069A16104BCD00A1282D /* LICENSE */; };
 		DE8506E216104BCE00A1282D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = DE85069B16104BCD00A1282D /* README.md */; };
 		DE8506E316104BCE00A1282D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = DE85069B16104BCD00A1282D /* README.md */; };
+		DE9FE97A1610598400BA0C2F /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = DE9FE9781610598400BA0C2F /* placeholder.png */; };
+		DE9FE97B1610598400BA0C2F /* placeholder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE9FE9791610598400BA0C2F /* placeholder@2x.png */; };
 		DED1586D16102DEC00B0E3B8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DED1586C16102DEC00B0E3B8 /* UIKit.framework */; };
 		DED1586F16102DEC00B0E3B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DED1586E16102DEC00B0E3B8 /* Foundation.framework */; };
 		DED1587116102DEC00B0E3B8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DED1587016102DEC00B0E3B8 /* CoreGraphics.framework */; };
@@ -89,6 +91,8 @@
 		DE85067316104BCD00A1282D /* CHANGES */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CHANGES; sourceTree = "<group>"; };
 		DE85069A16104BCD00A1282D /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		DE85069B16104BCD00A1282D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		DE9FE9781610598400BA0C2F /* placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholder.png; sourceTree = "<group>"; };
+		DE9FE9791610598400BA0C2F /* placeholder@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "placeholder@2x.png"; sourceTree = "<group>"; };
 		DED1586816102DEC00B0E3B8 /* NetworkingIsFun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetworkingIsFun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DED1586C16102DEC00B0E3B8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DED1586E16102DEC00B0E3B8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -216,6 +220,8 @@
 				DED1588416102DEC00B0E3B8 /* ViewController.h */,
 				DED1588516102DEC00B0E3B8 /* ViewController.m */,
 				DED1588716102DEC00B0E3B8 /* ViewController.xib */,
+				DE9FE9781610598400BA0C2F /* placeholder.png */,
+				DE9FE9791610598400BA0C2F /* placeholder@2x.png */,
 				DED1587316102DEC00B0E3B8 /* Supporting Files */,
 			);
 			path = NetworkingIsFun;
@@ -335,6 +341,8 @@
 				DE8506BA16104BCE00A1282D /* CHANGES in Resources */,
 				DE8506E016104BCE00A1282D /* LICENSE in Resources */,
 				DE8506E216104BCE00A1282D /* README.md in Resources */,
+				DE9FE97A1610598400BA0C2F /* placeholder.png in Resources */,
+				DE9FE97B1610598400BA0C2F /* placeholder@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
