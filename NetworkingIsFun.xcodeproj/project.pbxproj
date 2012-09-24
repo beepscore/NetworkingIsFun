@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DED1586D16102DEC00B0E3B8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DED1586C16102DEC00B0E3B8 /* UIKit.framework */; };
+		DED1586F16102DEC00B0E3B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DED1586E16102DEC00B0E3B8 /* Foundation.framework */; };
+		DED1587116102DEC00B0E3B8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DED1587016102DEC00B0E3B8 /* CoreGraphics.framework */; };
+		DED1587716102DEC00B0E3B8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DED1587516102DEC00B0E3B8 /* InfoPlist.strings */; };
+		DED1587916102DEC00B0E3B8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DED1587816102DEC00B0E3B8 /* main.m */; };
+		DED1587D16102DEC00B0E3B8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DED1587C16102DEC00B0E3B8 /* AppDelegate.m */; };
+		DED1587F16102DEC00B0E3B8 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = DED1587E16102DEC00B0E3B8 /* Default.png */; };
+		DED1588116102DEC00B0E3B8 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DED1588016102DEC00B0E3B8 /* Default@2x.png */; };
+		DED1588316102DEC00B0E3B8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DED1588216102DEC00B0E3B8 /* Default-568h@2x.png */; };
+		DED1588616102DEC00B0E3B8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DED1588516102DEC00B0E3B8 /* ViewController.m */; };
+		DED1588916102DEC00B0E3B8 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DED1588716102DEC00B0E3B8 /* ViewController.xib */; };
+		DED1589116102DEC00B0E3B8 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DED1589016102DEC00B0E3B8 /* SenTestingKit.framework */; };
+		DED1589216102DEC00B0E3B8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DED1586C16102DEC00B0E3B8 /* UIKit.framework */; };
+		DED1589316102DEC00B0E3B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DED1586E16102DEC00B0E3B8 /* Foundation.framework */; };
+		DED1589B16102DEC00B0E3B8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DED1589916102DEC00B0E3B8 /* InfoPlist.strings */; };
+		DED1589E16102DEC00B0E3B8 /* NetworkingIsFunTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DED1589D16102DEC00B0E3B8 /* NetworkingIsFunTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DED1589416102DEC00B0E3B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DED1585F16102DEC00B0E3B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DED1586716102DEC00B0E3B8;
+			remoteInfo = NetworkingIsFun;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DED1586816102DEC00B0E3B8 /* NetworkingIsFun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetworkingIsFun.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DED1586C16102DEC00B0E3B8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DED1586E16102DEC00B0E3B8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DED1587016102DEC00B0E3B8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DED1587416102DEC00B0E3B8 /* NetworkingIsFun-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NetworkingIsFun-Info.plist"; sourceTree = "<group>"; };
+		DED1587616102DEC00B0E3B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DED1587816102DEC00B0E3B8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DED1587A16102DEC00B0E3B8 /* NetworkingIsFun-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NetworkingIsFun-Prefix.pch"; sourceTree = "<group>"; };
+		DED1587B16102DEC00B0E3B8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DED1587C16102DEC00B0E3B8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DED1587E16102DEC00B0E3B8 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		DED1588016102DEC00B0E3B8 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		DED1588216102DEC00B0E3B8 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		DED1588416102DEC00B0E3B8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DED1588516102DEC00B0E3B8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DED1588816102DEC00B0E3B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		DED1588F16102DEC00B0E3B8 /* NetworkingIsFunTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetworkingIsFunTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DED1589016102DEC00B0E3B8 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		DED1589816102DEC00B0E3B8 /* NetworkingIsFunTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NetworkingIsFunTests-Info.plist"; sourceTree = "<group>"; };
+		DED1589A16102DEC00B0E3B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DED1589C16102DEC00B0E3B8 /* NetworkingIsFunTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkingIsFunTests.h; sourceTree = "<group>"; };
+		DED1589D16102DEC00B0E3B8 /* NetworkingIsFunTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkingIsFunTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DED1586516102DEC00B0E3B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DED1586D16102DEC00B0E3B8 /* UIKit.framework in Frameworks */,
+				DED1586F16102DEC00B0E3B8 /* Foundation.framework in Frameworks */,
+				DED1587116102DEC00B0E3B8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DED1588B16102DEC00B0E3B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DED1589116102DEC00B0E3B8 /* SenTestingKit.framework in Frameworks */,
+				DED1589216102DEC00B0E3B8 /* UIKit.framework in Frameworks */,
+				DED1589316102DEC00B0E3B8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DED1585D16102DEC00B0E3B8 = {
+			isa = PBXGroup;
+			children = (
+				DED1587216102DEC00B0E3B8 /* NetworkingIsFun */,
+				DED1589616102DEC00B0E3B8 /* NetworkingIsFunTests */,
+				DED1586B16102DEC00B0E3B8 /* Frameworks */,
+				DED1586916102DEC00B0E3B8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DED1586916102DEC00B0E3B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DED1586816102DEC00B0E3B8 /* NetworkingIsFun.app */,
+				DED1588F16102DEC00B0E3B8 /* NetworkingIsFunTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DED1586B16102DEC00B0E3B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DED1586C16102DEC00B0E3B8 /* UIKit.framework */,
+				DED1586E16102DEC00B0E3B8 /* Foundation.framework */,
+				DED1587016102DEC00B0E3B8 /* CoreGraphics.framework */,
+				DED1589016102DEC00B0E3B8 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DED1587216102DEC00B0E3B8 /* NetworkingIsFun */ = {
+			isa = PBXGroup;
+			children = (
+				DED1587B16102DEC00B0E3B8 /* AppDelegate.h */,
+				DED1587C16102DEC00B0E3B8 /* AppDelegate.m */,
+				DED1588416102DEC00B0E3B8 /* ViewController.h */,
+				DED1588516102DEC00B0E3B8 /* ViewController.m */,
+				DED1588716102DEC00B0E3B8 /* ViewController.xib */,
+				DED1587316102DEC00B0E3B8 /* Supporting Files */,
+			);
+			path = NetworkingIsFun;
+			sourceTree = "<group>";
+		};
+		DED1587316102DEC00B0E3B8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DED1587416102DEC00B0E3B8 /* NetworkingIsFun-Info.plist */,
+				DED1587516102DEC00B0E3B8 /* InfoPlist.strings */,
+				DED1587816102DEC00B0E3B8 /* main.m */,
+				DED1587A16102DEC00B0E3B8 /* NetworkingIsFun-Prefix.pch */,
+				DED1587E16102DEC00B0E3B8 /* Default.png */,
+				DED1588016102DEC00B0E3B8 /* Default@2x.png */,
+				DED1588216102DEC00B0E3B8 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DED1589616102DEC00B0E3B8 /* NetworkingIsFunTests */ = {
+			isa = PBXGroup;
+			children = (
+				DED1589C16102DEC00B0E3B8 /* NetworkingIsFunTests.h */,
+				DED1589D16102DEC00B0E3B8 /* NetworkingIsFunTests.m */,
+				DED1589716102DEC00B0E3B8 /* Supporting Files */,
+			);
+			path = NetworkingIsFunTests;
+			sourceTree = "<group>";
+		};
+		DED1589716102DEC00B0E3B8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DED1589816102DEC00B0E3B8 /* NetworkingIsFunTests-Info.plist */,
+				DED1589916102DEC00B0E3B8 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DED1586716102DEC00B0E3B8 /* NetworkingIsFun */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DED158A116102DEC00B0E3B8 /* Build configuration list for PBXNativeTarget "NetworkingIsFun" */;
+			buildPhases = (
+				DED1586416102DEC00B0E3B8 /* Sources */,
+				DED1586516102DEC00B0E3B8 /* Frameworks */,
+				DED1586616102DEC00B0E3B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NetworkingIsFun;
+			productName = NetworkingIsFun;
+			productReference = DED1586816102DEC00B0E3B8 /* NetworkingIsFun.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DED1588E16102DEC00B0E3B8 /* NetworkingIsFunTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DED158A416102DEC00B0E3B8 /* Build configuration list for PBXNativeTarget "NetworkingIsFunTests" */;
+			buildPhases = (
+				DED1588A16102DEC00B0E3B8 /* Sources */,
+				DED1588B16102DEC00B0E3B8 /* Frameworks */,
+				DED1588C16102DEC00B0E3B8 /* Resources */,
+				DED1588D16102DEC00B0E3B8 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DED1589516102DEC00B0E3B8 /* PBXTargetDependency */,
+			);
+			name = NetworkingIsFunTests;
+			productName = NetworkingIsFunTests;
+			productReference = DED1588F16102DEC00B0E3B8 /* NetworkingIsFunTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DED1585F16102DEC00B0E3B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Beepscore LLC";
+			};
+			buildConfigurationList = DED1586216102DEC00B0E3B8 /* Build configuration list for PBXProject "NetworkingIsFun" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DED1585D16102DEC00B0E3B8;
+			productRefGroup = DED1586916102DEC00B0E3B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DED1586716102DEC00B0E3B8 /* NetworkingIsFun */,
+				DED1588E16102DEC00B0E3B8 /* NetworkingIsFunTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DED1586616102DEC00B0E3B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DED1587716102DEC00B0E3B8 /* InfoPlist.strings in Resources */,
+				DED1587F16102DEC00B0E3B8 /* Default.png in Resources */,
+				DED1588116102DEC00B0E3B8 /* Default@2x.png in Resources */,
+				DED1588316102DEC00B0E3B8 /* Default-568h@2x.png in Resources */,
+				DED1588916102DEC00B0E3B8 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DED1588C16102DEC00B0E3B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DED1589B16102DEC00B0E3B8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DED1588D16102DEC00B0E3B8 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DED1586416102DEC00B0E3B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DED1587916102DEC00B0E3B8 /* main.m in Sources */,
+				DED1587D16102DEC00B0E3B8 /* AppDelegate.m in Sources */,
+				DED1588616102DEC00B0E3B8 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DED1588A16102DEC00B0E3B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DED1589E16102DEC00B0E3B8 /* NetworkingIsFunTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DED1589516102DEC00B0E3B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DED1586716102DEC00B0E3B8 /* NetworkingIsFun */;
+			targetProxy = DED1589416102DEC00B0E3B8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DED1587516102DEC00B0E3B8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DED1587616102DEC00B0E3B8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DED1588716102DEC00B0E3B8 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DED1588816102DEC00B0E3B8 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+		DED1589916102DEC00B0E3B8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DED1589A16102DEC00B0E3B8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DED1589F16102DEC00B0E3B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DED158A016102DEC00B0E3B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DED158A216102DEC00B0E3B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NetworkingIsFun/NetworkingIsFun-Prefix.pch";
+				INFOPLIST_FILE = "NetworkingIsFun/NetworkingIsFun-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DED158A316102DEC00B0E3B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NetworkingIsFun/NetworkingIsFun-Prefix.pch";
+				INFOPLIST_FILE = "NetworkingIsFun/NetworkingIsFun-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DED158A516102DEC00B0E3B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NetworkingIsFun.app/NetworkingIsFun";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NetworkingIsFun/NetworkingIsFun-Prefix.pch";
+				INFOPLIST_FILE = "NetworkingIsFunTests/NetworkingIsFunTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		DED158A616102DEC00B0E3B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NetworkingIsFun.app/NetworkingIsFun";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NetworkingIsFun/NetworkingIsFun-Prefix.pch";
+				INFOPLIST_FILE = "NetworkingIsFunTests/NetworkingIsFunTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DED1586216102DEC00B0E3B8 /* Build configuration list for PBXProject "NetworkingIsFun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DED1589F16102DEC00B0E3B8 /* Debug */,
+				DED158A016102DEC00B0E3B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DED158A116102DEC00B0E3B8 /* Build configuration list for PBXNativeTarget "NetworkingIsFun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DED158A216102DEC00B0E3B8 /* Debug */,
+				DED158A316102DEC00B0E3B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DED158A416102DEC00B0E3B8 /* Build configuration list for PBXNativeTarget "NetworkingIsFunTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DED158A516102DEC00B0E3B8 /* Debug */,
+				DED158A616102DEC00B0E3B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DED1585F16102DEC00B0E3B8 /* Project object */;
+}
