@@ -36,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DE5CFFFA161038BC00061A5F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		DED1586816102DEC00B0E3B8 /* NetworkingIsFun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetworkingIsFun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DED1586C16102DEC00B0E3B8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DED1586E16102DEC00B0E3B8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -87,6 +88,7 @@
 		DED1585D16102DEC00B0E3B8 = {
 			isa = PBXGroup;
 			children = (
+				DE5CFFFA161038BC00061A5F /* README.md */,
 				DED1587216102DEC00B0E3B8 /* NetworkingIsFun */,
 				DED1589616102DEC00B0E3B8 /* NetworkingIsFunTests */,
 				DED1586B16102DEC00B0E3B8 /* Frameworks */,
@@ -446,6 +448,7 @@
 				DED158A316102DEC00B0E3B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DED158A416102DEC00B0E3B8 /* Build configuration list for PBXNativeTarget "NetworkingIsFunTests" */ = {
 			isa = XCConfigurationList;
@@ -454,6 +457,7 @@
 				DED158A616102DEC00B0E3B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
