@@ -88,6 +88,12 @@
     NSDictionary *movie = [self.movies objectAtIndex:indexPath.row];
     cell.textLabel.text = [movie objectForKey:@"trackName"];
     cell.detailTextLabel.text = [movie objectForKey:@"artistName"];
+
+    // show thumbnail image
+    NSURL *url = [[NSURL alloc] initWithString:[movie objectForKey:@"artworkUrl100"]];
+    NSData *data = [NSData dataWithContentsOfURL:url];
+    cell.imageView.image = [[UIImage alloc] initWithData:data];
+    
     return cell;
 }
 
