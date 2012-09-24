@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE7361A41610395600E2B1D6 /* AFNetworking in Resources */ = {isa = PBXBuildFile; fileRef = DE7361A31610395600E2B1D6 /* AFNetworking */; };
+		DE7361A51610395600E2B1D6 /* AFNetworking in Resources */ = {isa = PBXBuildFile; fileRef = DE7361A31610395600E2B1D6 /* AFNetworking */; };
 		DED1586D16102DEC00B0E3B8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DED1586C16102DEC00B0E3B8 /* UIKit.framework */; };
 		DED1586F16102DEC00B0E3B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DED1586E16102DEC00B0E3B8 /* Foundation.framework */; };
 		DED1587116102DEC00B0E3B8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DED1587016102DEC00B0E3B8 /* CoreGraphics.framework */; };
@@ -37,6 +39,7 @@
 
 /* Begin PBXFileReference section */
 		DE5CFFFA161038BC00061A5F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		DE7361A31610395600E2B1D6 /* AFNetworking */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AFNetworking; sourceTree = "<group>"; };
 		DED1586816102DEC00B0E3B8 /* NetworkingIsFun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetworkingIsFun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DED1586C16102DEC00B0E3B8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DED1586E16102DEC00B0E3B8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -89,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				DE5CFFFA161038BC00061A5F /* README.md */,
+				DE7361A31610395600E2B1D6 /* AFNetworking */,
 				DED1587216102DEC00B0E3B8 /* NetworkingIsFun */,
 				DED1589616102DEC00B0E3B8 /* NetworkingIsFunTests */,
 				DED1586B16102DEC00B0E3B8 /* Frameworks */,
@@ -238,6 +242,7 @@
 				DED1588116102DEC00B0E3B8 /* Default@2x.png in Resources */,
 				DED1588316102DEC00B0E3B8 /* Default-568h@2x.png in Resources */,
 				DED1588916102DEC00B0E3B8 /* ViewController.xib in Resources */,
+				DE7361A41610395600E2B1D6 /* AFNetworking in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +251,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DED1589B16102DEC00B0E3B8 /* InfoPlist.strings in Resources */,
+				DE7361A51610395600E2B1D6 /* AFNetworking in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
