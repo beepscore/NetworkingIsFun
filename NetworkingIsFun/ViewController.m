@@ -42,6 +42,19 @@
     
     // Initialize Data Source
     self.movies = [[NSArray alloc] init];
+    
+    NSURL *url = [[NSURL alloc]
+                  initWithString:@"http://itunes.apple.com/search?term=harry&country=us&entity=movie"];
+    NSURLRequest *request = [[NSURLRequest alloc] initWithURL:url];
+    AFJSONRequestOperation *operation = [AFJSONRequestOperation
+                                         JSONRequestOperationWithRequest:request
+                                         success:^(NSURLRequest *request, NSHTTPURLResponse *response, id JSON) {
+                                             NSLog(@"%@", JSON);
+                                         }
+                                         failure:^(NSURLRequest *request, NSHTTPURLResponse *response, NSError *error, id JSON) {
+                                             NSLog(@"Request Failed with Error: %@, %@", error, error.userInfo);
+                                         }];
+    [operation start];
 }
 
 - (void)didReceiveMemoryWarning
