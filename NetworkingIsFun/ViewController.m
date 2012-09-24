@@ -49,7 +49,11 @@
     AFJSONRequestOperation *operation = [AFJSONRequestOperation
                                          JSONRequestOperationWithRequest:request
                                          success:^(NSURLRequest *request, NSHTTPURLResponse *response, id JSON) {
-                                             NSLog(@"%@", JSON);
+                                             //NSLog(@"%@", JSON);
+                                             self.movies = [JSON objectForKey:@"results"];
+                                             [self.activityIndicatorView stopAnimating];
+                                             [self.tableView setHidden:NO];
+                                             [self.tableView reloadData];
                                          }
                                          failure:^(NSURLRequest *request, NSHTTPURLResponse *response, NSError *error, id JSON) {
                                              NSLog(@"Request Failed with Error: %@, %@", error, error.userInfo);
@@ -81,6 +85,9 @@
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle
                                       reuseIdentifier:cellID];
     }
+    NSDictionary *movie = [self.movies objectAtIndex:indexPath.row];
+    cell.textLabel.text = [movie objectForKey:@"trackName"];
+    cell.detailTextLabel.text = [movie objectForKey:@"artistName"];
     return cell;
 }
 
