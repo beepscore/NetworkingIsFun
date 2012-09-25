@@ -27,8 +27,6 @@
 		DE8506B516104BCE00A1282D /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = DE85067016104BCD00A1282D /* UIImageView+AFNetworking.m */; };
 		DE8506B616104BCE00A1282D /* AFNetworking.podspec in Resources */ = {isa = PBXBuildFile; fileRef = DE85067116104BCD00A1282D /* AFNetworking.podspec */; };
 		DE8506B716104BCE00A1282D /* AFNetworking.podspec in Resources */ = {isa = PBXBuildFile; fileRef = DE85067116104BCD00A1282D /* AFNetworking.podspec */; };
-		DE8506B816104BCE00A1282D /* AFNetworking.xcworkspace in Resources */ = {isa = PBXBuildFile; fileRef = DE85067216104BCD00A1282D /* AFNetworking.xcworkspace */; };
-		DE8506B916104BCE00A1282D /* AFNetworking.xcworkspace in Resources */ = {isa = PBXBuildFile; fileRef = DE85067216104BCD00A1282D /* AFNetworking.xcworkspace */; };
 		DE8506BA16104BCE00A1282D /* CHANGES in Resources */ = {isa = PBXBuildFile; fileRef = DE85067316104BCD00A1282D /* CHANGES */; };
 		DE8506BB16104BCE00A1282D /* CHANGES in Resources */ = {isa = PBXBuildFile; fileRef = DE85067316104BCD00A1282D /* CHANGES */; };
 		DE8506E016104BCE00A1282D /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = DE85069A16104BCD00A1282D /* LICENSE */; };
@@ -87,7 +85,6 @@
 		DE85066F16104BCD00A1282D /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
 		DE85067016104BCD00A1282D /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
 		DE85067116104BCD00A1282D /* AFNetworking.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AFNetworking.podspec; sourceTree = "<group>"; };
-		DE85067216104BCD00A1282D /* AFNetworking.xcworkspace */ = {isa = PBXFileReference; lastKnownFileType = wrapper.workspace; path = AFNetworking.xcworkspace; sourceTree = "<group>"; };
 		DE85067316104BCD00A1282D /* CHANGES */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CHANGES; sourceTree = "<group>"; };
 		DE85069A16104BCD00A1282D /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		DE85069B16104BCD00A1282D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
@@ -146,7 +143,6 @@
 			children = (
 				DE85065D16104BCD00A1282D /* AFNetworking */,
 				DE85067116104BCD00A1282D /* AFNetworking.podspec */,
-				DE85067216104BCD00A1282D /* AFNetworking.xcworkspace */,
 				DE85067316104BCD00A1282D /* CHANGES */,
 				DE85069A16104BCD00A1282D /* LICENSE */,
 				DE85069B16104BCD00A1282D /* README.md */,
@@ -337,7 +333,6 @@
 				DED1588316102DEC00B0E3B8 /* Default-568h@2x.png in Resources */,
 				DED1588916102DEC00B0E3B8 /* ViewController.xib in Resources */,
 				DE8506B616104BCE00A1282D /* AFNetworking.podspec in Resources */,
-				DE8506B816104BCE00A1282D /* AFNetworking.xcworkspace in Resources */,
 				DE8506BA16104BCE00A1282D /* CHANGES in Resources */,
 				DE8506E016104BCE00A1282D /* LICENSE in Resources */,
 				DE8506E216104BCE00A1282D /* README.md in Resources */,
@@ -352,7 +347,6 @@
 			files = (
 				DED1589B16102DEC00B0E3B8 /* InfoPlist.strings in Resources */,
 				DE8506B716104BCE00A1282D /* AFNetworking.podspec in Resources */,
-				DE8506B916104BCE00A1282D /* AFNetworking.xcworkspace in Resources */,
 				DE8506BB16104BCE00A1282D /* CHANGES in Resources */,
 				DE8506E116104BCE00A1282D /* LICENSE in Resources */,
 				DE8506E316104BCE00A1282D /* README.md in Resources */,
