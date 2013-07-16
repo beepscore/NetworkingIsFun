@@ -51,6 +51,8 @@
 		DED1589316102DEC00B0E3B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DED1586E16102DEC00B0E3B8 /* Foundation.framework */; };
 		DED1589B16102DEC00B0E3B8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DED1589916102DEC00B0E3B8 /* InfoPlist.strings */; };
 		DED1589E16102DEC00B0E3B8 /* NetworkingIsFunTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DED1589D16102DEC00B0E3B8 /* NetworkingIsFunTests.m */; };
+		DEDDD4D4179530CB002D6CD0 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEDDD4D3179530CB002D6CD0 /* SystemConfiguration.framework */; };
+		DEDDD4D6179530DB002D6CD0 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEDDD4D5179530DB002D6CD0 /* MobileCoreServices.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -112,6 +114,8 @@
 		DED1589A16102DEC00B0E3B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DED1589C16102DEC00B0E3B8 /* NetworkingIsFunTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkingIsFunTests.h; sourceTree = "<group>"; };
 		DED1589D16102DEC00B0E3B8 /* NetworkingIsFunTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkingIsFunTests.m; sourceTree = "<group>"; };
+		DEDDD4D3179530CB002D6CD0 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		DEDDD4D5179530DB002D6CD0 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +123,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEDDD4D6179530DB002D6CD0 /* MobileCoreServices.framework in Frameworks */,
+				DEDDD4D4179530CB002D6CD0 /* SystemConfiguration.framework in Frameworks */,
 				DED1586D16102DEC00B0E3B8 /* UIKit.framework in Frameworks */,
 				DED1586F16102DEC00B0E3B8 /* Foundation.framework in Frameworks */,
 				DED1587116102DEC00B0E3B8 /* CoreGraphics.framework in Frameworks */,
@@ -200,6 +206,8 @@
 		DED1586B16102DEC00B0E3B8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DEDDD4D5179530DB002D6CD0 /* MobileCoreServices.framework */,
+				DEDDD4D3179530CB002D6CD0 /* SystemConfiguration.framework */,
 				DED1586C16102DEC00B0E3B8 /* UIKit.framework */,
 				DED1586E16102DEC00B0E3B8 /* Foundation.framework */,
 				DED1587016102DEC00B0E3B8 /* CoreGraphics.framework */,
