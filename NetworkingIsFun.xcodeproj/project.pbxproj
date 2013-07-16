@@ -117,7 +117,6 @@
 		DED1589016102DEC00B0E3B8 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		DED1589816102DEC00B0E3B8 /* NetworkingIsFunTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NetworkingIsFunTests-Info.plist"; sourceTree = "<group>"; };
 		DED1589A16102DEC00B0E3B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		DED1589C16102DEC00B0E3B8 /* NetworkingIsFunTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkingIsFunTests.h; sourceTree = "<group>"; };
 		DED1589D16102DEC00B0E3B8 /* NetworkingIsFunTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkingIsFunTests.m; sourceTree = "<group>"; };
 		DEDDD4D3179530CB002D6CD0 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		DEDDD4D5179530DB002D6CD0 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
@@ -267,7 +266,6 @@
 		DED1589616102DEC00B0E3B8 /* NetworkingIsFunTests */ = {
 			isa = PBXGroup;
 			children = (
-				DED1589C16102DEC00B0E3B8 /* NetworkingIsFunTests.h */,
 				DED1589D16102DEC00B0E3B8 /* NetworkingIsFunTests.m */,
 				DED1589716102DEC00B0E3B8 /* Supporting Files */,
 			);

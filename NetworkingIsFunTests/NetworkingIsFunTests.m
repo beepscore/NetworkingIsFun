@@ -6,7 +6,10 @@
 //  Copyright (c) 2012 Beepscore LLC. All rights reserved.
 //
 
-#import "NetworkingIsFunTests.h"
+#import <SenTestingKit/SenTestingKit.h>
+
+@interface NetworkingIsFunTests : SenTestCase
+@end
 
 @implementation NetworkingIsFunTests
 
