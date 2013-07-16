@@ -37,6 +37,7 @@
 		DE8506E116104BCE00A1282D /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = DE85069A16104BCD00A1282D /* LICENSE */; };
 		DE8506E216104BCE00A1282D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = DE85069B16104BCD00A1282D /* README.md */; };
 		DE8506E316104BCE00A1282D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = DE85069B16104BCD00A1282D /* README.md */; };
+		DE8C53DE1795FFBA00791067 /* AFNetworkingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE8C53DD1795FFBA00791067 /* AFNetworkingTests.m */; };
 		DE9FE97A1610598400BA0C2F /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = DE9FE9781610598400BA0C2F /* placeholder.png */; };
 		DE9FE97B1610598400BA0C2F /* placeholder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE9FE9791610598400BA0C2F /* placeholder@2x.png */; };
 		DED1586D16102DEC00B0E3B8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DED1586C16102DEC00B0E3B8 /* UIKit.framework */; };
@@ -97,6 +98,7 @@
 		DE85067316104BCD00A1282D /* CHANGES */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CHANGES; sourceTree = "<group>"; };
 		DE85069A16104BCD00A1282D /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		DE85069B16104BCD00A1282D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		DE8C53DD1795FFBA00791067 /* AFNetworkingTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkingTests.m; sourceTree = "<group>"; };
 		DE9FE9781610598400BA0C2F /* placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholder.png; sourceTree = "<group>"; };
 		DE9FE9791610598400BA0C2F /* placeholder@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "placeholder@2x.png"; sourceTree = "<group>"; };
 		DED1586816102DEC00B0E3B8 /* NetworkingIsFun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetworkingIsFun.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -268,6 +270,7 @@
 		DED1589616102DEC00B0E3B8 /* NetworkingIsFunTests */ = {
 			isa = PBXGroup;
 			children = (
+				DE8C53DD1795FFBA00791067 /* AFNetworkingTests.m */,
 				DE5C10521795D4000015843D /* ViewControllerTests.m */,
 				DED1589716102DEC00B0E3B8 /* Supporting Files */,
 			);
@@ -447,6 +450,7 @@
 				DE8506B316104BCE00A1282D /* AFXMLRequestOperation.m in Sources */,
 				DE8506B516104BCE00A1282D /* UIImageView+AFNetworking.m in Sources */,
 				DE5C10531795D4000015843D /* ViewControllerTests.m in Sources */,
+				DE8C53DE1795FFBA00791067 /* AFNetworkingTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
