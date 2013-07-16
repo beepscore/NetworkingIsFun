@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE5C10531795D4000015843D /* ViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5C10521795D4000015843D /* ViewControllerTests.m */; };
 		DE6788F81795CFF800630B4B /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEDDD4D5179530DB002D6CD0 /* MobileCoreServices.framework */; };
 		DE6788F91795CFFD00630B4B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEDDD4D3179530CB002D6CD0 /* SystemConfiguration.framework */; };
 		DE6788FA1795D01F00630B4B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DED1587016102DEC00B0E3B8 /* CoreGraphics.framework */; };
@@ -53,7 +54,6 @@
 		DED1589216102DEC00B0E3B8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DED1586C16102DEC00B0E3B8 /* UIKit.framework */; };
 		DED1589316102DEC00B0E3B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DED1586E16102DEC00B0E3B8 /* Foundation.framework */; };
 		DED1589B16102DEC00B0E3B8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DED1589916102DEC00B0E3B8 /* InfoPlist.strings */; };
-		DED1589E16102DEC00B0E3B8 /* NetworkingIsFunTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DED1589D16102DEC00B0E3B8 /* NetworkingIsFunTests.m */; };
 		DEDDD4D4179530CB002D6CD0 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEDDD4D3179530CB002D6CD0 /* SystemConfiguration.framework */; };
 		DEDDD4D6179530DB002D6CD0 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEDDD4D5179530DB002D6CD0 /* MobileCoreServices.framework */; };
 		DEEDCCE11795C52800023957 /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DEEDCCE01795C52800023957 /* libOCMock.a */; };
@@ -71,6 +71,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DE5C10521795D4000015843D /* ViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerTests.m; sourceTree = "<group>"; };
 		DE5CFFFA161038BC00061A5F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		DE85065E16104BCD00A1282D /* AFHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPClient.h; sourceTree = "<group>"; };
 		DE85065F16104BCD00A1282D /* AFHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPClient.m; sourceTree = "<group>"; };
@@ -117,7 +118,6 @@
 		DED1589016102DEC00B0E3B8 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		DED1589816102DEC00B0E3B8 /* NetworkingIsFunTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NetworkingIsFunTests-Info.plist"; sourceTree = "<group>"; };
 		DED1589A16102DEC00B0E3B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		DED1589D16102DEC00B0E3B8 /* NetworkingIsFunTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkingIsFunTests.m; sourceTree = "<group>"; };
 		DEDDD4D3179530CB002D6CD0 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		DEDDD4D5179530DB002D6CD0 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		DEEDCCDA1795C47F00023957 /* NSNotificationCenter+OCMAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNotificationCenter+OCMAdditions.h"; sourceTree = "<group>"; };
@@ -266,7 +266,7 @@
 		DED1589616102DEC00B0E3B8 /* NetworkingIsFunTests */ = {
 			isa = PBXGroup;
 			children = (
-				DED1589D16102DEC00B0E3B8 /* NetworkingIsFunTests.m */,
+				DE5C10521795D4000015843D /* ViewControllerTests.m */,
 				DED1589716102DEC00B0E3B8 /* Supporting Files */,
 			);
 			path = NetworkingIsFunTests;
@@ -435,7 +435,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DED1589E16102DEC00B0E3B8 /* NetworkingIsFunTests.m in Sources */,
 				DE8506A516104BCD00A1282D /* AFHTTPClient.m in Sources */,
 				DE8506A716104BCD00A1282D /* AFHTTPRequestOperation.m in Sources */,
 				DE8506A916104BCD00A1282D /* AFImageRequestOperation.m in Sources */,
@@ -445,6 +444,7 @@
 				DE8506B116104BCE00A1282D /* AFURLConnectionOperation.m in Sources */,
 				DE8506B316104BCE00A1282D /* AFXMLRequestOperation.m in Sources */,
 				DE8506B516104BCE00A1282D /* UIImageView+AFNetworking.m in Sources */,
+				DE5C10531795D4000015843D /* ViewControllerTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
