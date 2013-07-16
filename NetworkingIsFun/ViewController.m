@@ -34,6 +34,7 @@
     [self.view addSubview:self.tableView];
     
     // Set Up Activity Indicator View
+    self.activityIndicatorView = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle: UIActivityIndicatorViewStyleGray];
     [self configureActivityIndicator];
     
     // Initialize Data Source
@@ -59,7 +60,6 @@
 
 - (void)configureActivityIndicator
 {
-    self.activityIndicatorView = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle: UIActivityIndicatorViewStyleGray];
     self.activityIndicatorView.hidesWhenStopped = YES;
     self.activityIndicatorView.center = self.view.center;
     [self.view addSubview:self.activityIndicatorView];
