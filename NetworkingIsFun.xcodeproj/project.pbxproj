@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE6788F81795CFF800630B4B /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEDDD4D5179530DB002D6CD0 /* MobileCoreServices.framework */; };
+		DE6788F91795CFFD00630B4B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEDDD4D3179530CB002D6CD0 /* SystemConfiguration.framework */; };
+		DE6788FA1795D01F00630B4B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DED1587016102DEC00B0E3B8 /* CoreGraphics.framework */; };
 		DE8506A416104BCD00A1282D /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = DE85065F16104BCD00A1282D /* AFHTTPClient.m */; };
 		DE8506A516104BCD00A1282D /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = DE85065F16104BCD00A1282D /* AFHTTPClient.m */; };
 		DE8506A616104BCD00A1282D /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = DE85066116104BCD00A1282D /* AFHTTPRequestOperation.m */; };
@@ -149,6 +152,9 @@
 				DED1589216102DEC00B0E3B8 /* UIKit.framework in Frameworks */,
 				DED1589316102DEC00B0E3B8 /* Foundation.framework in Frameworks */,
 				DEEDCCE11795C52800023957 /* libOCMock.a in Frameworks */,
+				DE6788F81795CFF800630B4B /* MobileCoreServices.framework in Frameworks */,
+				DE6788F91795CFFD00630B4B /* SystemConfiguration.framework in Frameworks */,
+				DE6788FA1795D01F00630B4B /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
