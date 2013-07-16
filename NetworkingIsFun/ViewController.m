@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "ViewController_Private.h"
 #import "AFNetworking.h"
 
 @interface ViewController ()

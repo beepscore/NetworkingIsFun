@@ -73,6 +73,7 @@
 /* Begin PBXFileReference section */
 		DE5C10521795D4000015843D /* ViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerTests.m; sourceTree = "<group>"; };
 		DE5CFFFA161038BC00061A5F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		DE724D6E1795DD6600D02B33 /* ViewController_Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController_Private.h; sourceTree = "<group>"; };
 		DE85065E16104BCD00A1282D /* AFHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPClient.h; sourceTree = "<group>"; };
 		DE85065F16104BCD00A1282D /* AFHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPClient.m; sourceTree = "<group>"; };
 		DE85066016104BCD00A1282D /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
@@ -240,6 +241,7 @@
 				DED1587B16102DEC00B0E3B8 /* AppDelegate.h */,
 				DED1587C16102DEC00B0E3B8 /* AppDelegate.m */,
 				DED1588416102DEC00B0E3B8 /* ViewController.h */,
+				DE724D6E1795DD6600D02B33 /* ViewController_Private.h */,
 				DED1588516102DEC00B0E3B8 /* ViewController.m */,
 				DED1588716102DEC00B0E3B8 /* ViewController.xib */,
 				DE9FE9781610598400BA0C2F /* placeholder.png */,
