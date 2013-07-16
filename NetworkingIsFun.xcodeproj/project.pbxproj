@@ -563,6 +563,7 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NetworkingIsFun/NetworkingIsFun-Prefix.pch";
+				HEADER_SEARCH_PATHS = "\"$(PROJECT_DIR)\"";
 				INFOPLIST_FILE = "NetworkingIsFunTests/NetworkingIsFunTests-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -584,6 +585,7 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NetworkingIsFun/NetworkingIsFun-Prefix.pch";
+				HEADER_SEARCH_PATHS = "\"$(PROJECT_DIR)\"";
 				INFOPLIST_FILE = "NetworkingIsFunTests/NetworkingIsFunTests-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
