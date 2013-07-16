@@ -26,7 +26,7 @@
 
 - (void)testExample
 {
-    STFail(@"Unit tests are not implemented yet in NetworkingIsFunTests");
+    STAssertEqualObjects(@1, @1, @"Expected NSNumbers equal");
 }
 
 @end
