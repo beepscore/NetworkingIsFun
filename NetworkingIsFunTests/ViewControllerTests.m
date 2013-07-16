@@ -7,7 +7,9 @@
 //
 
 #import "ViewController.h"
+#import "ViewController_Private.h"
 #import <SenTestingKit/SenTestingKit.h>
+#import "OCMock.h"
 
 @interface ViewControllerTests : SenTestCase
 @property (strong, nonatomic) ViewController *viewController;
@@ -39,6 +41,19 @@
     STAssertEquals(self.viewController,
                    self.viewController.tableView.delegate,
                    @"expected viewDidLoad sets tableView delegate to self");
+}
+
+- (void)testConfigureActivityIndicatorSetsHideWhenStopped
+{
+    // use nice mock to ignore un-expected call to method setCenter:
+    id mockActivityIndicatorView = [OCMockObject niceMockForClass:[UIActivityIndicatorView class]];
+    self.viewController.activityIndicatorView = mockActivityIndicatorView;
+    
+    [[mockActivityIndicatorView expect] setHidesWhenStopped:YES];
+    [self.viewController configureActivityIndicator];
+    
+    // Verify all stubbed or expected methods were called.
+    [mockActivityIndicatorView verify];
 }
 
 @end
