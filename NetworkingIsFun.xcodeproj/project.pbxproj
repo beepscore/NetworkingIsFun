@@ -53,6 +53,7 @@
 		DED1589E16102DEC00B0E3B8 /* NetworkingIsFunTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DED1589D16102DEC00B0E3B8 /* NetworkingIsFunTests.m */; };
 		DEDDD4D4179530CB002D6CD0 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEDDD4D3179530CB002D6CD0 /* SystemConfiguration.framework */; };
 		DEDDD4D6179530DB002D6CD0 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEDDD4D5179530DB002D6CD0 /* MobileCoreServices.framework */; };
+		DEEDCCE11795C52800023957 /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DEEDCCE01795C52800023957 /* libOCMock.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -122,6 +123,7 @@
 		DEEDCCDD1795C47F00023957 /* OCMock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMock.h; sourceTree = "<group>"; };
 		DEEDCCDE1795C47F00023957 /* OCMockObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMockObject.h; sourceTree = "<group>"; };
 		DEEDCCDF1795C47F00023957 /* OCMockRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMockRecorder.h; sourceTree = "<group>"; };
+		DEEDCCE01795C52800023957 /* libOCMock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libOCMock.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +146,7 @@
 				DED1589116102DEC00B0E3B8 /* SenTestingKit.framework in Frameworks */,
 				DED1589216102DEC00B0E3B8 /* UIKit.framework in Frameworks */,
 				DED1589316102DEC00B0E3B8 /* Foundation.framework in Frameworks */,
+				DEEDCCE11795C52800023957 /* libOCMock.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,6 +216,7 @@
 		DED1586B16102DEC00B0E3B8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DEEDCCE01795C52800023957 /* libOCMock.a */,
 				DEDDD4D5179530DB002D6CD0 /* MobileCoreServices.framework */,
 				DEDDD4D3179530CB002D6CD0 /* SystemConfiguration.framework */,
 				DED1586C16102DEC00B0E3B8 /* UIKit.framework */,
@@ -556,6 +560,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NetworkingIsFun/NetworkingIsFun-Prefix.pch";
 				INFOPLIST_FILE = "NetworkingIsFunTests/NetworkingIsFunTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
@@ -573,6 +581,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NetworkingIsFun/NetworkingIsFun-Prefix.pch";
 				INFOPLIST_FILE = "NetworkingIsFunTests/NetworkingIsFunTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
