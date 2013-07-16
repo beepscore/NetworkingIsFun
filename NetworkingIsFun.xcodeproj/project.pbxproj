@@ -54,6 +54,7 @@
 		DEDDD4D4179530CB002D6CD0 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEDDD4D3179530CB002D6CD0 /* SystemConfiguration.framework */; };
 		DEDDD4D6179530DB002D6CD0 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEDDD4D5179530DB002D6CD0 /* MobileCoreServices.framework */; };
 		DEEDCCE11795C52800023957 /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DEEDCCE01795C52800023957 /* libOCMock.a */; };
+		DEEDCCE31795C60000023957 /* License.txt in Resources */ = {isa = PBXBuildFile; fileRef = DEEDCCE21795C60000023957 /* License.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -124,6 +125,7 @@
 		DEEDCCDE1795C47F00023957 /* OCMockObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMockObject.h; sourceTree = "<group>"; };
 		DEEDCCDF1795C47F00023957 /* OCMockRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMockRecorder.h; sourceTree = "<group>"; };
 		DEEDCCE01795C52800023957 /* libOCMock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libOCMock.a; sourceTree = "<group>"; };
+		DEEDCCE21795C60000023957 /* License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = License.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -278,6 +280,7 @@
 		DEEDCCD91795C47F00023957 /* OCMock */ = {
 			isa = PBXGroup;
 			children = (
+				DEEDCCE21795C60000023957 /* License.txt */,
 				DEEDCCDA1795C47F00023957 /* NSNotificationCenter+OCMAdditions.h */,
 				DEEDCCDB1795C47F00023957 /* OCMArg.h */,
 				DEEDCCDC1795C47F00023957 /* OCMConstraint.h */,
@@ -382,6 +385,7 @@
 				DE8506BB16104BCE00A1282D /* CHANGES in Resources */,
 				DE8506E116104BCE00A1282D /* LICENSE in Resources */,
 				DE8506E316104BCE00A1282D /* README.md in Resources */,
+				DEEDCCE31795C60000023957 /* License.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
