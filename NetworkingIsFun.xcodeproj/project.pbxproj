@@ -116,6 +116,12 @@
 		DED1589D16102DEC00B0E3B8 /* NetworkingIsFunTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkingIsFunTests.m; sourceTree = "<group>"; };
 		DEDDD4D3179530CB002D6CD0 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		DEDDD4D5179530DB002D6CD0 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		DEEDCCDA1795C47F00023957 /* NSNotificationCenter+OCMAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNotificationCenter+OCMAdditions.h"; sourceTree = "<group>"; };
+		DEEDCCDB1795C47F00023957 /* OCMArg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMArg.h; sourceTree = "<group>"; };
+		DEEDCCDC1795C47F00023957 /* OCMConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMConstraint.h; sourceTree = "<group>"; };
+		DEEDCCDD1795C47F00023957 /* OCMock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMock.h; sourceTree = "<group>"; };
+		DEEDCCDE1795C47F00023957 /* OCMockObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMockObject.h; sourceTree = "<group>"; };
+		DEEDCCDF1795C47F00023957 /* OCMockRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMockRecorder.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -186,6 +192,7 @@
 			isa = PBXGroup;
 			children = (
 				DE5CFFFA161038BC00061A5F /* README.md */,
+				DEEDCCD91795C47F00023957 /* OCMock */,
 				DE85065C16104BCD00A1282D /* AFNetworking */,
 				DED1587216102DEC00B0E3B8 /* NetworkingIsFun */,
 				DED1589616102DEC00B0E3B8 /* NetworkingIsFunTests */,
@@ -262,6 +269,19 @@
 				DED1589916102DEC00B0E3B8 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DEEDCCD91795C47F00023957 /* OCMock */ = {
+			isa = PBXGroup;
+			children = (
+				DEEDCCDA1795C47F00023957 /* NSNotificationCenter+OCMAdditions.h */,
+				DEEDCCDB1795C47F00023957 /* OCMArg.h */,
+				DEEDCCDC1795C47F00023957 /* OCMConstraint.h */,
+				DEEDCCDD1795C47F00023957 /* OCMock.h */,
+				DEEDCCDE1795C47F00023957 /* OCMockObject.h */,
+				DEEDCCDF1795C47F00023957 /* OCMockRecorder.h */,
+			);
+			path = OCMock;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
