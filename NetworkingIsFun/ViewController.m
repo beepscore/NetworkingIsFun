@@ -34,11 +34,7 @@
     [self.view addSubview:self.tableView];
     
     // Set Up Activity Indicator View
-    self.activityIndicatorView = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle: UIActivityIndicatorViewStyleGray];
-    self.activityIndicatorView.hidesWhenStopped = YES;
-    self.activityIndicatorView.center = self.view.center;
-    [self.view addSubview:self.activityIndicatorView];
-    [self.activityIndicatorView startAnimating];
+    [self configureActivityIndicator];
     
     // Initialize Data Source
     self.movies = [[NSArray alloc] init];
@@ -59,6 +55,15 @@
                                              NSLog(@"Request Failed with Error: %@, %@", error, error.userInfo);
                                          }];
     [operation start];
+}
+
+- (void)configureActivityIndicator
+{
+    self.activityIndicatorView = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle: UIActivityIndicatorViewStyleGray];
+    self.activityIndicatorView.hidesWhenStopped = YES;
+    self.activityIndicatorView.center = self.view.center;
+    [self.view addSubview:self.activityIndicatorView];
+    [self.activityIndicatorView startAnimating];
 }
 
 - (void)didReceiveMemoryWarning
