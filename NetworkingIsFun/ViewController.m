@@ -43,6 +43,19 @@
     
     NSURL *url = [[NSURL alloc]
                   initWithString:@"http://itunes.apple.com/search?term=harry&country=us&entity=movie"];
+    [self requestMoviesURL:url];
+}
+
+- (void)configureActivityIndicator
+{
+    self.activityIndicatorView.hidesWhenStopped = YES;
+    self.activityIndicatorView.center = self.view.center;
+    [self.view addSubview:self.activityIndicatorView];
+    [self.activityIndicatorView startAnimating];
+}
+
+- (void)requestMoviesURL:(NSURL *)url
+{
     NSURLRequest *request = [[NSURLRequest alloc] initWithURL:url];
     AFJSONRequestOperation *operation = [AFJSONRequestOperation
                                          JSONRequestOperationWithRequest:request
@@ -57,14 +70,6 @@
                                              NSLog(@"Request Failed with Error: %@, %@", error, error.userInfo);
                                          }];
     [operation start];
-}
-
-- (void)configureActivityIndicator
-{
-    self.activityIndicatorView.hidesWhenStopped = YES;
-    self.activityIndicatorView.center = self.view.center;
-    [self.view addSubview:self.activityIndicatorView];
-    [self.activityIndicatorView startAnimating];
 }
 
 - (void)didReceiveMemoryWarning

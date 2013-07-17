@@ -13,4 +13,9 @@
 
 - (void)configureActivityIndicator;
 
+// makes a web request to url
+// if successful, assigns JSON "results" to self.movies
+// if failure, logs error
+- (void)requestMoviesURL:(NSURL *)url;
+
 @end
