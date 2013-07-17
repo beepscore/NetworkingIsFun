@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE15C056179641EC00F17302 /* itunes_term_harry.json in Resources */ = {isa = PBXBuildFile; fileRef = DE15C054179641EC00F17302 /* itunes_term_harry.json */; };
+		DE15C057179641EC00F17302 /* itunes_term_macgruber.json in Resources */ = {isa = PBXBuildFile; fileRef = DE15C055179641EC00F17302 /* itunes_term_macgruber.json */; };
 		DE5C10531795D4000015843D /* ViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5C10521795D4000015843D /* ViewControllerTests.m */; };
 		DE6788F81795CFF800630B4B /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEDDD4D5179530DB002D6CD0 /* MobileCoreServices.framework */; };
 		DE6788F91795CFFD00630B4B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEDDD4D3179530CB002D6CD0 /* SystemConfiguration.framework */; };
@@ -72,6 +74,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DE15C054179641EC00F17302 /* itunes_term_harry.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = itunes_term_harry.json; sourceTree = "<group>"; };
+		DE15C055179641EC00F17302 /* itunes_term_macgruber.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = itunes_term_macgruber.json; sourceTree = "<group>"; };
 		DE5C10521795D4000015843D /* ViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerTests.m; sourceTree = "<group>"; };
 		DE5CFFFA161038BC00061A5F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		DE724D6E1795DD6600D02B33 /* ViewController_Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController_Private.h; sourceTree = "<group>"; };
@@ -163,6 +167,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DE15C053179641EC00F17302 /* TestResources */ = {
+			isa = PBXGroup;
+			children = (
+				DE15C054179641EC00F17302 /* itunes_term_harry.json */,
+				DE15C055179641EC00F17302 /* itunes_term_macgruber.json */,
+			);
+			path = TestResources;
+			sourceTree = "<group>";
+		};
 		DE85065C16104BCD00A1282D /* AFNetworking */ = {
 			isa = PBXGroup;
 			children = (
@@ -209,6 +222,7 @@
 				DE85065C16104BCD00A1282D /* AFNetworking */,
 				DED1587216102DEC00B0E3B8 /* NetworkingIsFun */,
 				DED1589616102DEC00B0E3B8 /* NetworkingIsFunTests */,
+				DE15C053179641EC00F17302 /* TestResources */,
 				DED1586B16102DEC00B0E3B8 /* Frameworks */,
 				DED1586916102DEC00B0E3B8 /* Products */,
 			);
@@ -395,6 +409,8 @@
 				DE8506E116104BCE00A1282D /* LICENSE in Resources */,
 				DE8506E316104BCE00A1282D /* README.md in Resources */,
 				DEEDCCE31795C60000023957 /* License.txt in Resources */,
+				DE15C056179641EC00F17302 /* itunes_term_harry.json in Resources */,
+				DE15C057179641EC00F17302 /* itunes_term_macgruber.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
