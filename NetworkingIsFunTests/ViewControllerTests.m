@@ -56,4 +56,18 @@
     [mockActivityIndicatorView verify];
 }
 
+- (void)testMovies
+{
+    NSString *filePath = [[NSBundle bundleForClass:[self class]]
+                          pathForResource:@"itunes_term_macgruber" ofType:@"json"];
+    
+    NSData *data = [NSData dataWithContentsOfFile:filePath];
+    id response = [NSJSONSerialization JSONObjectWithData:data options:nil error:nil];
+    self.viewController.movies = [response objectForKey:@"results"];
+    id expectedTrackViewURL = @"https://itunes.apple.com/us/movie/macgruber/id386222734?uo=4";
+    id actualTrackViewURL = [[self.viewController.movies objectAtIndex:0]
+                       objectForKey:@"trackViewUrl"];
+    STAssertEqualObjects(expectedTrackViewURL, actualTrackViewURL, nil);
+}
+
 @end
