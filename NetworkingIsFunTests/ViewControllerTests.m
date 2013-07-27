@@ -36,6 +36,9 @@
 # pragma mark - test viewDidLoad
 - (void)testViewDidLoadSetsTableViewDataSource
 {
+    // make sure we are testing effect of viewDidLoad and not some prior setup
+    self.viewController.tableView.dataSource = nil;
+    
     [self.viewController viewDidLoad];
     
     STAssertEquals(self.viewController,
@@ -45,6 +48,9 @@
 
 - (void)testViewDidLoadSetsTableViewDelegate
 {
+    // make sure we are testing effect of viewDidLoad and not some prior setup
+    self.viewController.tableView.delegate = nil;
+    
     [self.viewController viewDidLoad];
     
     STAssertEquals(self.viewController,
