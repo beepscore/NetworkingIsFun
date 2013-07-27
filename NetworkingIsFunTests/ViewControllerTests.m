@@ -34,7 +34,7 @@
 }
 
 # pragma mark - test viewDidLoad
-- (void)testViewDidLoadSetsTableViewDataSource
+- (void)testViewDidLoadSetsTableViewDelegate
 {
     [self.viewController viewDidLoad];
     
