@@ -34,6 +34,15 @@
 }
 
 # pragma mark - test viewDidLoad
+- (void)testViewDidLoadSetsTableViewDataSource
+{
+    [self.viewController viewDidLoad];
+    
+    STAssertEquals(self.viewController,
+                   self.viewController.tableView.dataSource,
+                   @"expected viewDidLoad sets tableView dataSource to self");
+}
+
 - (void)testViewDidLoadSetsTableViewDelegate
 {
     [self.viewController viewDidLoad];
