@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		DE15C056179641EC00F17302 /* itunes_term_harry.json in Resources */ = {isa = PBXBuildFile; fileRef = DE15C054179641EC00F17302 /* itunes_term_harry.json */; };
 		DE15C057179641EC00F17302 /* itunes_term_macgruber.json in Resources */ = {isa = PBXBuildFile; fileRef = DE15C055179641EC00F17302 /* itunes_term_macgruber.json */; };
+		DE1AE43F17A34C0700411C5E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE1AE43E17A34C0700411C5E /* Security.framework */; };
+		DE1AE44017A34C2D00411C5E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE1AE43E17A34C0700411C5E /* Security.framework */; };
 		DE5C10531795D4000015843D /* ViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5C10521795D4000015843D /* ViewControllerTests.m */; };
 		DE6788F81795CFF800630B4B /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEDDD4D5179530DB002D6CD0 /* MobileCoreServices.framework */; };
 		DE6788F91795CFFD00630B4B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEDDD4D3179530CB002D6CD0 /* SystemConfiguration.framework */; };
@@ -76,6 +78,7 @@
 /* Begin PBXFileReference section */
 		DE15C054179641EC00F17302 /* itunes_term_harry.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = itunes_term_harry.json; sourceTree = "<group>"; };
 		DE15C055179641EC00F17302 /* itunes_term_macgruber.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = itunes_term_macgruber.json; sourceTree = "<group>"; };
+		DE1AE43E17A34C0700411C5E /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		DE5C10521795D4000015843D /* ViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerTests.m; sourceTree = "<group>"; };
 		DE5CFFFA161038BC00061A5F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		DE724D6E1795DD6600D02B33 /* ViewController_Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController_Private.h; sourceTree = "<group>"; };
@@ -142,6 +145,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE1AE43F17A34C0700411C5E /* Security.framework in Frameworks */,
 				DEDDD4D6179530DB002D6CD0 /* MobileCoreServices.framework in Frameworks */,
 				DEDDD4D4179530CB002D6CD0 /* SystemConfiguration.framework in Frameworks */,
 				DED1586D16102DEC00B0E3B8 /* UIKit.framework in Frameworks */,
@@ -161,6 +165,7 @@
 				DE6788F81795CFF800630B4B /* MobileCoreServices.framework in Frameworks */,
 				DE6788F91795CFFD00630B4B /* SystemConfiguration.framework in Frameworks */,
 				DE6788FA1795D01F00630B4B /* CoreGraphics.framework in Frameworks */,
+				DE1AE44017A34C2D00411C5E /* Security.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +246,7 @@
 			isa = PBXGroup;
 			children = (
 				DEEDCCE01795C52800023957 /* libOCMock.a */,
+				DE1AE43E17A34C0700411C5E /* Security.framework */,
 				DEDDD4D5179530DB002D6CD0 /* MobileCoreServices.framework */,
 				DEDDD4D3179530CB002D6CD0 /* SystemConfiguration.framework */,
 				DED1586C16102DEC00B0E3B8 /* UIKit.framework */,
